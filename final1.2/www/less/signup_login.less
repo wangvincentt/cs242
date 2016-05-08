@@ -1,0 +1,103 @@
+// main: ./entry.less
+.signup-login-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+  .container {
+    width: 512px;
+    min-height: 470px;
+    // height: 512px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #B8A48C;
+    border-radius: 6px;
+    padding: 48px;
+
+    @media (max-width:450px) {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  .field {
+    position: relative;
+    margin: 24px auto;
+    width: 480px;
+    height: 42px;
+    background: #F0F8FF;
+    border-radius: 6px;
+    color: #482E46;
+    text-align: center;
+    font-size: 42px;
+    cursor: pointer;
+
+    @media (max-width: 450px) {
+      width: 100%;
+      height: 48px;
+      font-size: 24px;
+    }
+
+    input {
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      border: none;
+      padding-left: 32px;
+      font-size: 16px;
+      color: #666;
+      font-weight: 500;
+    }
+
+    &:hover {
+      background: #E0EAF2;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+
+  .switch {
+    color: #fff;
+    font-weight: 500;
+    border-bottom: 2px dashed #fff;
+    margin-left: 32px;
+
+    &:hover {
+      cursor: pointer;
+      color: #DDF7FF;
+    }
+
+    @media (max-width: 450px) {
+      margin-left: 0;
+    }
+  }
+
+  .go {
+    position: fixed;
+    margin: 64px 0;
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+    border-radius: 64px;
+    box-sizing: border-box;
+    padding: 18px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #a68c6d;
+    }
+  }
+}

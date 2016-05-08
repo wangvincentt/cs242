@@ -1,0 +1,12 @@
+
+Please select from 0 to 9
+1. Get a list of all the cities that CSAir flies to.
+2. Get specific information about a specific city in the CSAir route network.
+3. Statistical information about CSAir's route network.
+4. Visualizing CSAir's route map.
+5. Online editing of the route network
+6. Save map back to disk
+7. Merge new JSON file
+8. Get Route info from cities
+9. Shortest route between two cities
+0. Exit! Bye-Bye!

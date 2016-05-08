@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="8318">
+<author>jwang135</author>
+<date>2016-03-06T04:41:31.637195Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.1/Data/default_output.json</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.1/Test/GraphTest.py</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.1/src/FlightMap.py</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.1/src/main.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/src/output.json</path>
+</paths>
+<msg>add more test</msg>
+</logentry>
+<logentry
+   revision="8155">
+<author>jwang135</author>
+<date>2016-03-04T20:50:01.947768Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/Data/cmi_hub.json</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Data/default_output.json</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.1/Data/output1.txt</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.1/Test/GraphTest.py</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.1/src/City.py</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.1/src/FlightMap.py</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.1/src/main.py</path>
+</paths>
+<msg>final</msg>
+</logentry>
+<logentry
+   revision="7669">
+<author>jwang135</author>
+<date>2016-03-02T00:23:39.784946Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/.classpath</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/.gitignore</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp2.1/.idea</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/.idea/mp2.0.iml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/.project</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp2.1/Data</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/Data/__init__.py</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Data/map_data.json</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/Data/output1.txt</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Data/output2.txt</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Data/output3.txt</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Data/output4.txt</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Data/output5.txt</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp2.1/Test</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/Test/GraphTest.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/Test/__init__.py</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp2.1/src</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/src/City.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/src/FlightMap.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/src/FlightRoutine.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.1/src/__init__.py</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.1/src/main.py</path>
+</paths>
+<msg>commit</msg>
+</logentry>
+<logentry
+   revision="7668">
+<author>jwang135</author>
+<date>2016-03-02T00:23:24.233701Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/jwang135/mp2.1</path>
+</paths>
+<msg>Share project "mp2.1" into "https://subversion.ews.illinois.edu/svn/sp16-cs242/jwang135"</msg>
+</logentry>
+<logentry
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.0/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/Data/output1.txt</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/Data/output2.txt</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/Data/output3.txt</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.0/Test/GraphTest.py</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.0/src/FlightMap.py</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.0/src/main.py</path>
+</paths>
+<msg>final</msg>
+</logentry>
+<logentry
+   revision="7355">
+<author>jwang135</author>
+<date>2016-02-26T21:06:26.443864Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp2.0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/Test/GraphTest.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/Test/__init__.py</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp2.0/src/FlightMap.py</path>
+</paths>
+<msg>final submission w/test</msg>
+</logentry>
+<logentry
+   revision="7273">
+<author>jwang135</author>
+<date>2016-02-26T12:06:20.123165Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/.classpath</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/.gitignore</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp2.0/.idea</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/.idea/mp2.0.iml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/.project</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp2.0/Data</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/Data/__init__.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/Data/map_data.json</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp2.0/Test</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp2.0/src</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/src/City.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/src/FlightMap.py</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/src/FlightRoutine.py</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp2.0/src/__init__.py</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp2.0/src/main.py</path>
+</paths>
+<msg>no test version</msg>
+</logentry>
+<logentry
+   revision="7272">
+<author>jwang135</author>
+<date>2016-02-26T12:06:05.480399Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135/mp2.0</path>
+</paths>
+<msg>Share project "mp2.0" into "https://subversion.ews.illinois.edu/svn/sp16-cs242/jwang135"</msg>
+</logentry>
+<logentry
+   revision="6376">
+<author>jwang135</author>
+<date>2016-02-19T18:19:10.401335Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/testPlan/TestPlan.docx</path>
+</paths>
+<msg>TestPlane</msg>
+</logentry>
+<logentry
+   revision="6373">
+<author>jwang135</author>
+<date>2016-02-19T17:49:16.702267Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/GameLoop/Game.java</path>
+<path
+   kind="file"
+   action="D">/jwang135/mp1.2/testPlan/testPlan.docx</path>
+</paths>
+<msg>final</msg>
+</logentry>
+<logentry
+   revision="6357">
+<author>jwang135</author>
+<date>2016-02-19T17:03:40.241538Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/.DS_Store</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Bomb.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/GameLoop/Game.java</path>
+</paths>
+<msg>Final version</msg>
+</logentry>
+<logentry
+   revision="6347">
+<author>jwang135</author>
+<date>2016-02-19T16:09:34.700014Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Board.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Bomb.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/King.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Knight.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Piece.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Queen.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Rook.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Space.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/ChessPiece/Stone.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/GameLoop/Game.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/tests/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.2/src/tests/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/tests/KnightTest.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/tests/QueenTest.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/tests/RookTest.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.2/src/tests/StoneTest.java</path>
+</paths>
+<msg>chess</msg>
+</logentry>
+<logentry
+   revision="6023">
+<author>jwang135</author>
+<date>2016-02-18T16:18:55.101473Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.classpath</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.metadata</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.DS_Store</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.lock</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.log</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.resources</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.resources/.root</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.runtime</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.runtime/.settings</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.e4.workbench</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.core</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.ui</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.team.cvs.core</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.ui.cheatsheets</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.ui.cheatsheets/history.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.ui.cheatsheets/org.eclipse.jdt.helloworld.xml</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.ui.workbench</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.project</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/.settings</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/Doxyfile</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/doxygen</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/html</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/html/search</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/images</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/.DS_Store</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/images/Black</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/Black/.DS_Store</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/Black/Bishop.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/Black/Bomb.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/Black/King.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/Black/Knight.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/Black/Pawn.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/Black/Queen.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/Black/Rook.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/Black/Space.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/Black/Stone.png</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/images/White</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/.DS_Store</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/Bishop.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/Bomb.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/King.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/Knight.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/Pawn.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/White/Queen.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/images/White/Rook.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/White/Space.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/images/White/Stone.png</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/latex</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/src</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/.DS_Store</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/src/ChessPiece</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/.DS_Store</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/ChessPiece/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Board.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Bomb.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/King.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Knight.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Pair.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/ChessPiece/Piece.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/ChessPiece/Queen.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/ChessPiece/Rook.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/ChessPiece/Space.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/ChessPiece/Stone.java</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/src/GameLoop</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/GameLoop/Game.java</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2/src/tests</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/src/tests/BoardTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/tests/KingTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/tests/KnightTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/tests/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/tests/RookTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/src/tests/StoneTest.java</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.2/testPlan</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.2/testPlan/.DS_Store</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.2/testPlan/testPlan.docx</path>
+</paths>
+<msg>begin</msg>
+</logentry>
+<logentry
+   revision="6022">
+<author>jwang135</author>
+<date>2016-02-18T16:17:05.886432Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.2</path>
+</paths>
+<msg>Init</msg>
+</logentry>
+<logentry
+   revision="5433">
+<author>jwang135</author>
+<date>2016-02-14T20:48:33.421752Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/Doxyfile</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5328">
+<author>jwang135</author>
+<date>2016-02-12T23:44:43.185357Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/GameLoop/Game.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/tests/BoardTest.java</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/testPlan</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/testPlan/testPlan.docx</path>
+</paths>
+<msg>Test</msg>
+</logentry>
+<logentry
+   revision="5207">
+<author>jwang135</author>
+<date>2016-02-12T18:57:56.776817Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/GameLoop/Game.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/tests/BoardTest.java</path>
+</paths>
+<msg>checkStalemate</msg>
+</logentry>
+<logentry
+   revision="5179">
+<author>jwang135</author>
+<date>2016-02-12T17:59:07.151346Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Board.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Bomb.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/King.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Knight.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Piece.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Queen.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Rook.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Space.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Stone.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/GameLoop/Game.java</path>
+</paths>
+<msg>None</msg>
+</logentry>
+<logentry
+   revision="4764">
+<author>jwang135</author>
+<date>2016-02-11T17:34:11.458108Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/Black/Space.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/White/Space.png</path>
+</paths>
+<msg>Need edit</msg>
+</logentry>
+<logentry
+   revision="4763">
+<author>jwang135</author>
+<date>2016-02-11T17:33:35.782252Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/images/Black/Bomb.png</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/images/Black/Stone.png</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/images/White/Bomb.png</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/images/White/Stone.png</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Board.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Bomb.java</path>
+<path
+   action="D"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Game.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/King.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Knight.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Piece.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Queen.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Rook.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Space.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Stone.java</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/src/GameLoop</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/GameLoop/Game.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/tests/StoneTest.java</path>
+</paths>
+<msg>Need background
+</msg>
+</logentry>
+<logentry
+   revision="4712">
+<author>jwang135</author>
+<date>2016-02-11T14:37:56.016843Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/Black/Bomb.png</path>
+<path
+   kind="file"
+   action="D">/jwang135/mp1.1/images/Black/bombBlack.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/White/Bomb.png</path>
+<path
+   action="D"
+   kind="file">/jwang135/mp1.1/images/White/bombWhite.png</path>
+</paths>
+<msg>New</msg>
+</logentry>
+<logentry
+   revision="4709">
+<author>jwang135</author>
+<date>2016-02-11T14:36:10.053107Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/Black/Bishop.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/Black/King.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/Black/Knight.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/Black/Pawn.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/Black/Queen.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/Black/Rook.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/Black/Stone.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/Black/bombBlack.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/Bishop.png</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/images/White/King.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/Knight.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/Pawn.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/Queen.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/Rook.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/Stone.png</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/images/White/bombWhite.png</path>
+</paths>
+<msg>Final Edit</msg>
+</logentry>
+<logentry
+   revision="4708">
+<author>jwang135</author>
+<date>2016-02-11T14:35:07.872003Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/images/Black</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/images/White</path>
+</paths>
+<msg>Edit previous submission</msg>
+</logentry>
+<logentry
+   revision="4707">
+<author>jwang135</author>
+<date>2016-02-11T14:34:13.899660Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/images</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Bomb.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Game.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Stone.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.1/src/tests/BoardTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/tests/StoneTest.java</path>
+</paths>
+<msg>Init, need GUI</msg>
+</logentry>
+<logentry
+   revision="4457">
+<author>jwang135</author>
+<date>2016-02-10T23:33:52.739505Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Bishop.java</path>
+</paths>
+<msg>Init
+</msg>
+</logentry>
+<logentry
+   revision="4456">
+<author>jwang135</author>
+<date>2016-02-10T23:30:40.614459Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.classpath</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.lock</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.log</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata/.plugins</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.resources</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.resources/.root</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.runtime</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.runtime/.settings</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.e4.workbench</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.core</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.ui</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.team.cvs.core</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.ui.cheatsheets</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.ui.cheatsheets/history.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.ui.cheatsheets/org.eclipse.jdt.helloworld.xml</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.ui.workbench</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.project</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/.settings</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/src</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1/src/ChessPiece</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/King.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Knight.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Pair.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Piece.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/ChessPiece/Queen.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/ChessPiece/Rook.java</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.1/src/tests</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/tests/BishopTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/tests/BoardTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/tests/KingTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.1/src/tests/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.1/src/tests/RookTest.java</path>
+</paths>
+<msg>Init
+</msg>
+</logentry>
+<logentry
+   revision="4455">
+<author>jwang135</author>
+<date>2016-02-10T23:30:28.660318Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.1</path>
+</paths>
+<msg>Share project "mp1.1" into "https://subversion.ews.illinois.edu/svn/sp16-cs242/jwang135"</msg>
+</logentry>
+<logentry
+   revision="3986">
+<author>jwang135</author>
+<date>2016-02-06T22:23:34.354594Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/tests/BoardTest.java</path>
+</paths>
+<msg>Final version of mp1.0</msg>
+</logentry>
+<logentry
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Board.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/King.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Knight.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Piece.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Queen.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Rook.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/tests/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/tests/BoardTest.java</path>
+</paths>
+<msg>checkmate and stalemate
+</msg>
+</logentry>
+<logentry
+   revision="3898">
+<author>jwang135</author>
+<date>2016-02-05T22:13:27.359557Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Pair.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Pawn.java</path>
+</paths>
+<msg>Partial implement checkmate
+</msg>
+</logentry>
+<logentry
+   revision="3832">
+<author>jwang135</author>
+<date>2016-02-05T20:07:21.222522Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/tests/BoardTest.java</path>
+</paths>
+<msg>Leave checkMate and staleMate blank, implement it later</msg>
+</logentry>
+<logentry
+   revision="3700">
+<author>jwang135</author>
+<date>2016-02-05T07:46:32.189208Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/King.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Knight.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Pair.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Piece.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Queen.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/mp1.0/src/ChessPiece/Rook.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/mp1.0/src/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/tests/BoardTest.java</path>
+</paths>
+<msg>v_1 need implement checkmate and stalemate</msg>
+</logentry>
+<logentry
+   revision="3069">
+<author>jwang135</author>
+<date>2016-02-02T18:50:36.923623Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.classpath</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/.metadata</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.lock</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.log</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.resources</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.resources/.root</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.runtime</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.runtime/.settings</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.e4.workbench</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.core</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.ui</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.team.cvs.core</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.ui.cheatsheets</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.ui.cheatsheets/history.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.ui.cheatsheets/org.eclipse.jdt.helloworld.xml</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.ui.workbench</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.project</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/.settings</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/src</path>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0/src/ChessPiece</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/ChessPiece/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/ChessPiece/Board.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/ChessPiece/King.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/ChessPiece/Knight.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/ChessPiece/Pair.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/ChessPiece/Piece.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Queen.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/src/ChessPiece/Rook.java</path>
+<path
+   action="A"
+   kind="dir">/jwang135/mp1.0/src/tests</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/src/tests/BishopTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/src/tests/KingTest.java</path>
+<path
+   action="A"
+   kind="file">/jwang135/mp1.0/src/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/mp1.0/src/tests/RookTest.java</path>
+</paths>
+<msg>First commit, not implement check and checkmate</msg>
+</logentry>
+<logentry
+   revision="3068">
+<author>jwang135</author>
+<date>2016-02-02T18:49:59.238594Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135/mp1.0</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2670">
+<author>jwang135</author>
+<date>2016-01-29T23:08:47.535303Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/jwang135/assignment0/.project</path>
+<path
+   action="A"
+   kind="file">/jwang135/assignment0/showCode.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2669">
+<author>jwang135</author>
+<date>2016-01-29T23:08:41.410728Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/jwang135/assignment0</path>
+</paths>
+<msg>Share project "assignment0" into "https://subversion.ews.illinois.edu/svn/sp16-cs242/jwang135"</msg>
+</logentry>
+<logentry
+   revision="1352">
+<author>jwang135</author>
+<date>2016-01-28T05:07:36.031869Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/showCode.py</path>
+</paths>
+<msg>v_0</msg>
+</logentry>
+<logentry
+   revision="1313">
+<author>jwang135</author>
+<date>2016-01-28T04:40:51.335748Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/jwang135/HW0/src/lanSimulation/Network.java</path>
+<path
+   action="M"
+   kind="file">/jwang135/HW0/src/lanSimulation/internals/Node.java</path>
+</paths>
+<msg>v_1
+</msg>
+</logentry>
+<logentry
+   revision="1293">
+<author>jwang135</author>
+<date>2016-01-28T04:27:04.565062Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jwang135/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="file"
+   action="M">/jwang135/HW0/useOutput.txt</path>
+</paths>
+<msg>v_0</msg>
+</logentry>
+<logentry
+   revision="1051">
+<author>jwang135</author>
+<date>2016-01-28T00:16:46.155138Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/.classpath</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/.project</path>
+<path
+   action="A"
+   kind="dir">/jwang135/HW0/.settings</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/COPYING</path>
+<path
+   action="A"
+   kind="dir">/jwang135/HW0/doc</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/doc/README</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/doc/toDoList</path>
+<path
+   action="A"
+   kind="file">/jwang135/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/javadoc.xml</path>
+<path
+   action="A"
+   kind="dir">/jwang135/HW0/src</path>
+<path
+   action="A"
+   kind="dir">/jwang135/HW0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="dir"
+   action="A">/jwang135/HW0/src/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="dir"
+   action="A">/jwang135/HW0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="file"
+   action="A">/jwang135/HW0/useOutput.txt</path>
+</paths>
+<msg>hw0</msg>
+</logentry>
+<logentry
+   revision="1050">
+<author>jwang135</author>
+<date>2016-01-28T00:16:28.000275Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135/HW0</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="87">
+<author>root</author>
+<date>2016-01-21T17:21:39.262426Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jwang135</path>
+</paths>
+<msg>created directory jwang135</msg>
+</logentry>
+</log>

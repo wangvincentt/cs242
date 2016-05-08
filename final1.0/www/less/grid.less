@@ -1,0 +1,76 @@
+// main: ./entry.less
+
+@grid-border-width: 1px;
+@grid-color: #454545;
+
+.grid {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: @grid-border-width solid @grid-color;
+  border-right: @grid-border-width solid @grid-color;
+}
+
+.grid-row {
+  .grid:first-child {
+    border-left: @grid-border-width solid @grid-color;
+  }
+}
+
+.board {
+  .grid-row:first-child {
+    .grid {
+      border-top: @grid-border-width solid @grid-color;
+    }
+  }
+}
+
+.grid-touch {
+  position: absolute;
+  cursor: pointer;
+  // background-color: yellow;
+}
+
+.dot {
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #222;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  &.dot-19 {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+.suicide {
+  position: absolute;
+  background-image: url("./images/suicide.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.jie {
+  position: absolute;
+  background-image: url("./images/jie.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mark-b {
+  position: absolute;
+  background-image: url("./images/mark_b.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mark-w {
+  position: absolute;
+  background-image: url("./images/mark_w.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

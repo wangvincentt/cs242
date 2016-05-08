@@ -1,0 +1,11 @@
+
+Which information do you want to get about CSAir?
+1.The longest single flight in the network
+2.The shortest single flight in the network
+3.The average distance of all the flights in the network
+4.The biggest city (by population) served by CSAir
+5.The smallest city (by population) served by CSAir
+6.The average size (by population) of all the cities served by CSAir
+7.A list of the continents served by CSAir and which cities are in them
+8.identifying CSAir's hub cities the cities that have the most direct connections.
+0. Back!

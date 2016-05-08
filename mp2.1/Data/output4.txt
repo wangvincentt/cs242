@@ -1,0 +1,8 @@
+
+Please select from 0 to 5
+1. Remove a city
+2. Remove a route
+3. Add a city, including all its necessary information
+4. Add a route, including all its necessary information
+5. Edit an existing city
+0. Back

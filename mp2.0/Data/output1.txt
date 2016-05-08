@@ -1,0 +1,7 @@
+
+Please select from 0 to 5
+1. Get a list of all the cities that CSAir flies to.
+2. Get specific information about a specific city in the CSAir route network.
+3. Statistical information about CSAir's route network.
+4. Visualizing CSAir's route map.\n0. Exit it! Bye-Bye.
+0. Exit! Bye-Bye!

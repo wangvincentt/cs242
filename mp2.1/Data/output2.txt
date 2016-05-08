@@ -1,0 +1,13 @@
+
+Which information do you want to search?"
+1.Its code
+2.Its name
+3.Its country
+4.Its continent
+5.Its timezone
+6.Its latitude
+7.Its longitude
+8.Its population
+9.Its region")
+10.All non-stop flight from it and its distance.
+0. Back!

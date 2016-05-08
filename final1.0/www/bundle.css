@@ -1,0 +1,422 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.game {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #faf8ef;
+}
+.game .user-id {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 26px;
+}
+@media (max-width: 450px) {
+  .game .user-id {
+    font-size: 14px;
+  }
+}
+.loading-screen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: #fff;
+}
+.loading-screen .logo {
+  position: relative;
+  margin: 0 auto;
+  top: 30%;
+  width: 600px;
+  height: 70px;
+  background-image: url("images/0xGG.png");
+  background-size: cover;
+  display: none;
+}
+@media (max-width: 450px) {
+  .loading-screen .logo {
+    width: 300px;
+    height: 50px;
+    background-size: contain;
+  }
+}
+.stone {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.75);
+}
+.stone.white {
+  background-size: cover;
+}
+.stone.black {
+  background-size: cover;
+}
+.board {
+  position: relative;
+  float: left;
+  background-color: #ddb45d;
+  padding: 48px;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-100%);
+  border-radius: 6px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 56px 2px #d9be96;
+  -moz-box-shadow: 0px 0px 56px 2px #d9be96;
+  box-shadow: 0px 0px 56px 2px #d9be96;
+  background-image: url("images/background.png");
+  background-repeat: repeat;
+  background-size: contain;
+  width: 664px;
+  /*
+  @media (min-width: 1328px) { // width * 2
+    position: relative;
+    margin: 0 auto;
+    left: initial;
+    transform: initial;
+    float: none;
+    width: 768px;
+  }
+  */
+}
+@media (max-width: 450px) {
+  .board {
+    width: 100%;
+    float: none;
+    top: 0;
+    left: 0;
+    transform: inherit;
+  }
+}
+.grid {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: 1px solid #454545;
+  border-right: 1px solid #454545;
+}
+.grid-row .grid:first-child {
+  border-left: 1px solid #454545;
+}
+.board .grid-row:first-child .grid {
+  border-top: 1px solid #454545;
+}
+.grid-touch {
+  position: absolute;
+  cursor: pointer;
+}
+.dot {
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #222;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.dot.dot-19 {
+  width: 8px;
+  height: 8px;
+}
+.suicide {
+  position: absolute;
+  background-image: url("images/suicide.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.jie {
+  position: absolute;
+  background-image: url("images/jie.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mark-b {
+  position: absolute;
+  background-image: url("images/mark_b.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mark-w {
+  position: absolute;
+  background-image: url("images/mark_w.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.menu {
+  width: 512px;
+  height: 512px;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #482E46;
+  border-radius: 6px;
+  color: #fff;
+  padding: 48px;
+  box-sizing: border-box;
+}
+.menu .menu-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 32px;
+}
+@media (max-width: 450px) {
+  .menu .menu-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+}
+.menu .button {
+  position: relative;
+  margin: 14px auto;
+  width: 300px;
+  height: 64px;
+  background: #F0F8FF;
+  border-radius: 6px;
+  color: #482E46;
+  text-align: center;
+  font-size: 42px;
+  cursor: pointer;
+}
+.menu .button:hover {
+  background: #E0EAF2;
+}
+.menu .button span {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+@media (max-width: 450px) {
+  .menu {
+    width: 300px;
+    height: 300px;
+    padding: 24px 48px;
+  }
+  .menu .button {
+    width: 100%;
+    height: 48px;
+    font-size: 24px;
+    margin: 6px auto;
+  }
+}
+.signup-login-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.signup-login-page .container {
+  width: 512px;
+  min-height: 470px;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #B8A48C;
+  border-radius: 6px;
+  padding: 48px;
+}
+@media (max-width: 450px) {
+  .signup-login-page .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+}
+.signup-login-page .field {
+  position: relative;
+  margin: 24px auto;
+  width: 480px;
+  height: 42px;
+  background: #F0F8FF;
+  border-radius: 6px;
+  color: #482E46;
+  text-align: center;
+  font-size: 42px;
+  cursor: pointer;
+}
+@media (max-width: 450px) {
+  .signup-login-page .field {
+    width: 100%;
+    height: 48px;
+    font-size: 24px;
+  }
+}
+.signup-login-page .field input {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  border: none;
+  padding-left: 32px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+}
+.signup-login-page .field:hover {
+  background: #E0EAF2;
+}
+.signup-login-page .field.hide {
+  display: none;
+}
+.signup-login-page .switch {
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 2px dashed #fff;
+  margin-left: 32px;
+}
+.signup-login-page .switch:hover {
+  cursor: pointer;
+  color: #DDF7FF;
+}
+@media (max-width: 450px) {
+  .signup-login-page .switch {
+    margin-left: 0;
+  }
+}
+.signup-login-page .go {
+  position: fixed;
+  margin: 64px 0;
+  text-align: center;
+  font-size: 44px;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  border: 4px solid #fff;
+  border-radius: 64px;
+  box-sizing: border-box;
+  padding: 18px;
+}
+.signup-login-page .go:hover {
+  cursor: pointer;
+  background-color: #a68c6d;
+}
+.board-menu {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.board-menu .players {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.board-menu .player {
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.board-menu .player .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 1px #D9D9D9;
+}
+.board-menu .player .card.black {
+  background: linear-gradient(to bottom, #535353 0%, #2E2E2E 60%, #090909 100%);
+  color: #fff;
+}
+.board-menu .player .card.black .btn {
+  background-color: #222;
+  border: 1px solid #494949;
+}
+.board-menu .player .card.black .btn:hover {
+  cursor: pointer;
+  background-color: #303030;
+}
+.board-menu .player .card.white {
+  background: linear-gradient(to bottom, #FFFFFF 0%, #E0E0E0 60%, #C9C9C9 100%);
+  color: #222;
+}
+.board-menu .player .card.white .btn {
+  background-color: #ececec;
+  border: 1px solid #D5D5D5;
+}
+.board-menu .player .card.white .btn:hover {
+  cursor: pointer;
+  background-color: #e3e3e3;
+}
+.board-menu .player .card .profile-image {
+  float: left;
+  margin-right: 30px;
+  background-image: url("images/default-user-64.png");
+  width: 64px;
+  height: 64px;
+}
+.board-menu .player .card .name {
+  margin: 6px 0;
+  font-weight: 500;
+}
+.board-menu .player .card .button-group {
+  position: relative;
+  top: 12px;
+  height: 64px;
+  clear: both;
+}
+.board-menu .player .card .button-group .pass,
+.board-menu .player .card .button-group .resign {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 80%;
+}
+.board-menu .player .card .button-group .pass .btn,
+.board-menu .player .card .button-group .resign .btn {
+  position: relative;
+  top: 30%;
+  padding: 6px;
+}
+@media (max-width: 450px) {
+  .board-menu {
+    float: none;
+    width: 100%;
+  }
+  .board-menu .players {
+    padding: 0;
+    height: 128px;
+  }
+  .board-menu .player {
+    padding: 0;
+  }
+  .board-menu .player .card {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .board-menu .player .card .profile-image {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+  }
+  .board-menu .player .card .name {
+    margin: 0;
+  }
+}

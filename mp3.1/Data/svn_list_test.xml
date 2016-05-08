@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp16-cs242/jwang135">
+<entry
+   kind="dir">
+<name>HW0</name>
+<commit
+   revision="1352">
+<author>jwang135</author>
+<date>2016-01-28T05:07:36.031869Z</date>
+</commit>
+</entry>
+
+<entry
+   kind="file">
+<name>HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="1051">
+<author>jwang135</author>
+<date>2016-01-28T00:16:46.155138Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="1051">
+<author>jwang135</author>
+<date>2016-01-28T00:16:46.155138Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="1051">
+<author>jwang135</author>
+<date>2016-01-28T00:16:46.155138Z</date>
+</commit>
+</entry>
+
+<entry
+   kind="dir">
+<name>mp1.0</name>
+<commit
+   revision="3986">
+<author>jwang135</author>
+<date>2016-02-06T22:23:34.354594Z</date>
+</commit>
+</entry>
+
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Bishop.java</name>
+<size>919</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Board.java</name>
+<size>8142</size>
+<commit
+   revision="3986">
+<author>jwang135</author>
+<date>2016-02-06T22:23:34.354594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/King.java</name>
+<size>741</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Knight.java</name>
+<size>788</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Pair.java</name>
+<size>895</size>
+<commit
+   revision="3898">
+<author>jwang135</author>
+<date>2016-02-05T22:13:27.359557Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Pawn.java</name>
+<size>1020</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Piece.java</name>
+<size>1128</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Queen.java</name>
+<size>843</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/ChessPiece/Rook.java</name>
+<size>769</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>mp1.0/src/tests</name>
+<commit
+   revision="3986">
+<author>jwang135</author>
+<date>2016-02-06T22:23:34.354594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/tests/BishopTest.java</name>
+<size>810</size>
+<commit
+   revision="3984">
+<author>jwang135</author>
+<date>2016-02-06T22:14:38.403004Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/tests/BoardTest.java</name>
+<size>3869</size>
+<commit
+   revision="3986">
+<author>jwang135</author>
+<date>2016-02-06T22:23:34.354594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/tests/KingTest.java</name>
+<size>616</size>
+<commit
+   revision="3069">
+<author>jwang135</author>
+<date>2016-02-02T18:50:36.923623Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/tests/KnightTest.java</name>
+<size>780</size>
+<commit
+   revision="3069">
+<author>jwang135</author>
+<date>2016-02-02T18:50:36.923623Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/tests/QueenTest.java</name>
+<size>696</size>
+<commit
+   revision="3069">
+<author>jwang135</author>
+<date>2016-02-02T18:50:36.923623Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp1.0/src/tests/RookTest.java</name>
+<size>787</size>
+<commit
+   revision="3069">
+<author>jwang135</author>
+<date>2016-02-02T18:50:36.923623Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>mp1.1</name>
+<commit
+   revision="5433">
+<author>jwang135</author>
+<date>2016-02-14T20:48:33.421752Z</date>
+</commit>
+</entry>
+
+
+<entry
+   kind="dir">
+<name>mp2.0</name>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+
+<entry
+   kind="file">
+<name>mp2.0/Data/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7273">
+<author>jwang135</author>
+<date>2016-02-26T12:06:20.123165Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/Data/map_data.json</name>
+<size>16098</size>
+<commit
+   revision="7273">
+<author>jwang135</author>
+<date>2016-02-26T12:06:20.123165Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/Data/output1.txt</name>
+<size>288</size>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/Data/output2.txt</name>
+<size>230</size>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/Data/output3.txt</name>
+<size>530</size>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>mp2.0/Test</name>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/Test/GraphTest.py</name>
+<size>3469</size>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/Test/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7355">
+<author>jwang135</author>
+<date>2016-02-26T21:06:26.443864Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>mp2.0/src</name>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/src/City.py</name>
+<size>1484</size>
+<commit
+   revision="7273">
+<author>jwang135</author>
+<date>2016-02-26T12:06:20.123165Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/src/FlightMap.py</name>
+<size>5507</size>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/src/FlightRoutine.py</name>
+<size>409</size>
+<commit
+   revision="7273">
+<author>jwang135</author>
+<date>2016-02-26T12:06:20.123165Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/src/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7273">
+<author>jwang135</author>
+<date>2016-02-26T12:06:20.123165Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>mp2.0/src/main.py</name>
+<size>3739</size>
+<commit
+   revision="7413">
+<author>jwang135</author>
+<date>2016-02-27T00:19:13.725528Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>mp2.1</name>
+<commit
+   revision="8318">
+<author>jwang135</author>
+<date>2016-03-06T04:41:31.637195Z</date>
+</commit>
+</entry>
+
+</list>
+</lists>

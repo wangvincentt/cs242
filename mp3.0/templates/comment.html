@@ -1,0 +1,279 @@
+<!-- Cited from https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/gh-pages/index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog Post - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/comment/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/comment/css/blog-post.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>Mao Zedong</h1>
+
+                <!-- Author -->
+                <p class="lead">
+                    by <a href="https://en.wikipedia.org/wiki/Mao_Zedong">wikipedia</a>
+                </p>
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="http://www.newstatesman.com/sites/default/files/images/maoamo.jpg" alt="">
+
+                <hr>
+
+                <!-- Post Content -->
+<!--                 cite: Content from wiki -->
+                <p class="lead">Mao Zedong, also transliterated as Mao Tse-tung and commonly referred to as Chairman Mao (December 26, 1893 – September 9, 1976), was a Chinese Communist revolutionary and the founding father of the People's Republic of China, which he governed as Chairman of the Communist Party of China from its establishment in 1949 until his death in 1976. His Marxist–Leninist theories, military strategies, and political policies are collectively known as Marxism–Leninism–Maoism or Mao Zedong Thought.</p>
+
+                <p>Born the son of a wealthy farmer in Shaoshan, Hunan, Mao adopted a Chinese nationalist and anti-imperialist outlook in early life, particularly influenced by the events of the Xinhai Revolution of 1911 and May Fourth Movement of 1919. Mao converted to Marxism–Leninism while working at Peking University and became a founding member of the Communist Party of China (CPC), leading the Autumn Harvest Uprising in 1927. During the Chinese Civil War between the Kuomintang (KMT) and the CPC, Mao helped to found the Red Army, led the Jiangxi Soviet's radical land policies and ultimately became head of the CPC during the Long March. Although the CPC temporarily allied with the KMT under the United Front during the Second Sino-Japanese War (1937–45), after Japan's defeat China's civil war resumed and in 1949 Mao's forces defeated the Nationalists who withdrew to Taiwan.</p>
+
+                <hr>
+
+
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://ninjaburger.com/gfx/wpaper/bowicon32x32.gif" alt="">
+                    </a>
+                    <div class="well">
+                        <h4 class="media-heading">Leave a Comment:
+                            
+                            <form action="/comment" method=post role="form">
+                                <div class="form-group">
+                                    <textarea name=author class="form-control" rows="1">Anonymous Author</textarea>
+                                    <textarea name=parent class="form-control" rows="1"></textarea>
+                                    <textarea name=content class="form-control" rows="3">Say something</textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+                    </div>
+                </div>
+
+                <hr>
+                
+
+                <!-- Comment -->
+                {% for comment in comments %}
+                {% if comment['parent'] == '' %}
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://ninjaburger.com/gfx/wpaper/bowicon32x32.gif" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{ comment['author'] }}
+                            <small>{{ comment['date'] }}</small>
+                        </h4>
+                        <!-- {{ comment['content'] }} -->
+                                <head>
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+                                <script>
+                                $(document).ready(function(){
+                                    $("#hide").click(function(){
+                                        $("form").hide();
+                                    });
+                                    $("#show").click(function(){
+                                        $("form").show();
+                                    });
+
+                                });
+                                </script>
+                                </head>
+                                <body>
+
+                                <p>{{ comment['content'] }}</p>
+
+                                <form action="/comment" method=post role="form">
+                                    <div class="form-group">
+                                        <textarea name=author class="form-control" rows="1">Anonymous Author</textarea>
+                                        <textarea name=parent class="form-control" rows="1">{{comment['id']}}</textarea>
+                                        <textarea name=content class="form-control" rows="3">Leave Comment</textarea>
+                                    </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                                
+
+
+                                <button id="hide">Hide</button>
+                                <button id="show">Reply</button>
+                                </body>
+                        {% for child in comment['children'] recursive %}
+
+
+                        <!-- Nested Comment -->
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="http://ninjaburger.com/gfx/wpaper/bowicon32x32.gif" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">{{ child['author'] }}
+                                    <small>{{ child['date'] }}</small>
+                                </h4>
+                                 <p>{{ child['content'] }}
+                                {% if child['children'] %}
+                                {{ loop(child['children']) }}
+                                {% endif %} </p>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                        <!-- End Nested Comment -->
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+        </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
+                <div class="well">
+                    <h4>Blog Search</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <!-- /.input-group -->
+                </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Blog Categories</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Side Widget Well</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="../static/comment/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/comment/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+// main: ./entry.less
+@menu-background: #482E46;
+@button-background: #F0F8FF;
+.menu {
+  width: 512px;
+  height: 512px;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: @menu-background;
+  border-radius: 6px;
+  color: #fff;
+  padding: 48px;
+  box-sizing: border-box;
+
+  &.ranked {
+    background-color: #792B2B;
+  }
+
+  &.public {
+    background-color: #398ecc;
+  }
+
+  .menu-title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 32px;
+
+    @media (max-width:450px) {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
+  }
+
+  .button {
+    position: relative;
+    margin: 14px auto;
+    width: 300px;
+    height: 64px;
+    background: @button-background;
+    border-radius: 6px;
+    color: @menu-background;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+
+    &.locked {
+      background-color: #222;
+      color: white;
+
+      span {
+        text-decoration: line-through;
+      }
+
+      &:hover {
+        background: #111;
+      }
+    }
+
+    &:hover {
+      background: #E0EAF2;
+    }
+
+    span {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
+  @media (max-width:450px) {
+    width: 300px;
+    height: 300px;
+    padding: 24px 48px;
+
+    .button {
+      width: 100%;
+      height: 48px;
+      font-size: 24px;
+      margin: 6px auto;
+    }
+  }
+
+  .pick-color {
+    .title {
+      font-size: 24px;
+    }
+    .color-group {
+      position: relative;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+      .color {
+        display: table;
+        width: 64px;
+        height: 64px;
+        margin-right: 24px;
+        padding: 4px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #694066;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #633E60;
+        }
+
+        &.selected {
+          border: 3px solid #fff;
+        }
+
+        span {
+          vertical-align: middle;
+          display: table-cell;
+        }
+      }
+    }
+  }
+
+  .pick-komi {
+    .title {
+      font-size: 24px;
+    }
+    input {
+      font-size: 16px;
+      border: none;
+      padding: 4px 6px;
+      background: transparent;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      outline: none;
+    }
+  }
+
+  .pick-opponent {
+    .title {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    input {
+      font-size: 16px;
+      border: none;
+      padding: 4px 6px;
+      background: transparent;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      outline: none;
+    }
+  }
+
+
+  .bottom-button-group {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: left;
+    margin-top: 32px;
+
+    .small-btn {
+      font-size: 24px;
+      width: 64px;
+      text-align: center;
+      background-color: #694066;
+      padding: 6px;
+      margin-right: 24px;
+      border-radius: 4px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #633E60;
+      }
+
+      &.play {
+        background-color: #529873;
+
+        &:hover {
+          background-color: #3d8a61;
+        }
+      }
+    }
+  }
+}
+
+.leaderboards {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #C5A30D;
+  border-radius: 6px;
+  color: #fff;
+  padding: 48px;
+  box-sizing: border-box;
+
+  .title {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+
+    span {
+      font-size: 32px;
+    }
+  }
+
+  .list {
+    height: 560px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .player {
+      padding: 12px;
+      display: flex;
+      flex-direction: row;
+
+      &.me {
+        border: 2px dotted white;
+      }
+    }
+
+    .ID {
+      margin: 4px;
+      font-size: 16px;
+      width: 50%;
+
+      span {
+        margin-left: 16px;
+      }
+    }
+
+    .MMR {
+      margin: 4px;
+      font-size: 16px;
+    }
+  }
+
+  .btn {
+    width: 64px;
+    padding: 12px;
+    text-align: center;
+    background-color: #C5760D;
+    border-radius: 4px;
+    margin-top: 12px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

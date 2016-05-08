@@ -1,0 +1,12 @@
+
+Which information you want to edit?
+Please select from 0 to 5
+1. Edit a code
+2. Edit a name
+3. Edit country
+4. Edit continent
+5. Edit timezone
+6. Edit coordinates
+7. Edit population
+8. Edit region
+0. Back
